@@ -1,0 +1,51 @@
+                             	EXPERIMENT-: 4
+SMARTPHONE LIGHT CONTROL         SYSTEM BY BLUETOOTH
+DIAGRAM:
+ Theory:-
+Concept used:-  
+
+Controlling the Arduino via Bluetooth
+To connect your Android or iOS mobile device to the Arduino you will need to download a free app (or you could also make your own app) that can connect to the HM-10 Bluetooth module and send commands. You can search your device’s app store to find a free app that will work for this project but for this example we will use the free Bluetooth Terminal app on iOS.
+Tip: If you search the iOS App Store or Google Play app store using the keywords “bluetooth arduino” or “bluetooth hm-10” you should be able to find a suitable app.
+The steps below are for the Bluetooth Terminal app on iOS but will be similar for other apps on other devices:
+1.	Open the app and connect to the Bluetooth module (in this case it is called CC41-A but the name will vary depending on the model you have).
+
+2.	Tap ‘Select characteristic’ and then select FFE1 (at the bottom of the list).
+
+3.	Select Decimal.
+4.	Using the on-screen keypad, you can enter different decimal values. Enter 1 and tap the Send button. The LED light should turn on. Enter 0 and tap the Send button. The LED should then turn off. If you don’t see anything happen, click Tools > Serial Monitor in the Arduino IDE and then set the baud date to 9600 bauds. Check if any input is being received and displayed in the serial monitor when you send the 0 or 1 commands to the Arduino from the app.
+
+
+Learning and Observation:-Leanings:	
+•	I have learned about how to make a series circuit using an arduino and Bluetooth. 
+
+•	I have learned about how an arduino works and I also learned how current flows and how it works.
+•	I have now gained a practical experience of how an LED work with bluetooth.
+•	I have also learned the working of a switch by smartphone.
+•	I have also learned the use of bluetooth.
+•	By which we make wireless switch.
+•	Also we perform it.
+Observations:-
+•	When we press the switch in the smartphone and led turns on.
+•	When we press the switch again in the smartphone and led turns off.
+Problems and Troubleshooting:-
+The problems faced by me while doing this task are:-
+•	The code was not working properly at first so I have to change it many times.
+•	The Bluetooth is not working.
+•	At first I was not able to know that how smartphone connect with bluetooth.
+
+Precautions:-
+The precautions that we need to keep in mind while doing this experiment are:-
+
+•	The connect wire with different points should not be loose and the pins should be inserted properly.
+•	The pins of the Bluetooth sensor should be connected at their appropriate point that is the positive point should be connected with the p pin and the negative point should be connected with the negative pin.
+•	We should take care that the circuit is closed.
+
+•	While writing the code  extra care should be taken while writing the syntax keeping in mind about different small and a capital words in them.
+LERANING OUTCOMES:
+
+•	I have learned how to make circuits using an arduino board and a bread board and bluetooth sensor and  some other hardwares.
+•	Through this experiment I have gained the skill of making a circuit using different hardwares and controlling the functions done by that
+circuit with the help of codes. And how to use bluetooth sensor properly.
+
+
